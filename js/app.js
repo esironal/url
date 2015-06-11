@@ -7,12 +7,14 @@
 
     decode.addEventListener('click', function(e) {
       string.value = decodeURIComponent(string.value);
+      document.title = decodeURIComponent(document.title);
 
       e.preventDefault();
     });
 
     encode.addEventListener('click', function(e) {
       string.value = encodeURIComponent(string.value);
+      document.title = encodeURIComponent(document.title);
 
       e.preventDefault();
     });
