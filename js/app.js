@@ -16,6 +16,12 @@
 
       e.preventDefault();
     });
+
+    string.addEventListener('paste', function() {
+      setTimeout(function() {
+        decode.focus();
+      }, 50);
+    });
   });
 
 })();
