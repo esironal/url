@@ -1,4 +1,4 @@
-# URL%20DE
+# :link: URL%20DE
 
 URL%20DE is a user friendly URL decoder / encoder. The textarea is focused
 so you can simply paste your string when you open up the website. After
